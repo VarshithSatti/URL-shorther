@@ -1,7 +1,7 @@
 This is a basic url shortner which uses node.js, mongodb, and html, css, javascipt.
 
-Make sure you have node.js and mongoDB
-to use this program first download this. then run
+Make sure you have **node.js and mongoDB installed**
+to use this program. first download this. then run
 ```
 npm i
 ```
@@ -31,7 +31,7 @@ if you are chanding the mongoDB connect to mongoDB atlis please tanker with the 
             res.write(URLresultWWW);
             res.end();
         },30/* getRandomInt(25, 31)*/)
-        **// change the 30 to someting higher and try to find the sweet spot**
+        // change the 30 to someting higher and try to find the sweet spot
         //console.log(resultURLD);
     }
 }).listen(3000);
