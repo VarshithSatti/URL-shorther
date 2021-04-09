@@ -1,0 +1,31 @@
+{
+  "name": "url-shorther",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "mongodb": "^3.6.5",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server.js",
+    "startClient": "cd html-main && nodemon fileServer.js"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VarshithSatti/URL-shorther.git"
+  },
+  "keywords": [
+    "url-shorther",
+    "javascipt",
+    "node.js",
+    "mongoDB"
+  ],
+  "author": "Varshith Reddy Satti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VarshithSatti/URL-shorther/issues"
+  },
+  "homepage": "https://github.com/VarshithSatti/URL-shorther#readme"
+}
